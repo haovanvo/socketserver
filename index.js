@@ -1,4 +1,4 @@
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3001;
 console.log('The socker server is listening on port: ' + port);
 const io = require('socket.io')(port);
 
